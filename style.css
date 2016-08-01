@@ -1,0 +1,31 @@
+.pic{
+  margin-top: 30px;
+}
+
+.icon{
+  color: black;
+}
+
+.twitter{
+  padding-left: 30px;
+}
+
+.insta{
+  padding-left: 30px;
+}
+
+.portfolioTabs{
+  margin-top: 30px;
+}
+
+.sectionTitle{
+  margin-top: 30px;
+}
+
+.indicator{
+  background-color: #2979ff !important;
+}
+
+.profile{
+  width: 100%;
+}
