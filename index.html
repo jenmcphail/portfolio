@@ -16,31 +16,32 @@
   <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
+<div class="navbar-fixed">
 <nav>
   <div class="nav-wrapper blue accent-3">
     <ul id="nav-mobile" class="left">
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Resume</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#resume">Resume</a></li>
     </ul>
   </div>
 </nav>
+</div>
 
-<div class="row">
+<div class="row parent">
   <div class="profileOuter col s12 m3 l3">
     <div class="profile row" align="center">
       <img class= "pic circle responsive-img" src="https://avatars3.githubusercontent.com/u/18298639?v=3&s=460">
     </div>
     <div>
       <p>Hi, I'm Jen. I'm a full stack web developer with previous experience in marketing, managing teams, and startups.</p>
-      <p><h5>About Me</h5>
-      I'm an East Coast native - new to San Francisco by way of Baltimore and New York. I have a serious love for silent films, fresh hot bagels, and fluffy dogs small or large. Connect with me below:</p>
+      <p>I'm an East Coast native - new to San Francisco by way of Baltimore and New York. I have a serious love for silent films, fresh hot bagels, and fluffy dogs small or large. Get to know more about me here:</p>
       <p><a href="http://www.github.com/jenmcphail"><i class="fa fa-github fa-2x icon git" aria-hidden="true"></i></a> <a href="http://www.twitter.com/jenmcphail"><i class="fa fa-twitter fa-2x icon twitter" aria-hidden="true"></i></a> <a href="http://www.instagram.com/jemaphai"><i class="fa fa-instagram fa-2x icon insta" aria-hidden="true"></i></a></p>
     </div>
   </div>
 
   <div class="portfolio col s9">
-    <h4 class="sectionTitle" align="center">Portfolio</h4>
+    <a name="portfolio"><h4 class="sectionTitle" align="center">Portfolio</h4></a>
     <div class="row portfolioTabs">
     <div class="col s12">
       <ul class="tabs">
@@ -62,8 +63,8 @@
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Foodly<i class="fa fa-chevron-down" aria-hidden="true"></i></span>
             <p>Foodly instantly matches you with restaurants in your area based on location and yelp rating. I worked with a team of 4 developers on this Rails app, built the database structure, and implemented the Stripe API to handle payments and monthly subscriptions.</p>
-            <a class="btn" href="https://foodly-app.herokuapp.com/">See it live!</a>
-            <a href="https://github.com/mattlaguardia/foodly-app"><i class="fa fa-github fa-2x icon git" aria-hidden="true"></i></a>
+            <a class="btn" href="https://foodly-app.herokuapp.com/" target="_blank">See it live!</a>
+            <a href="https://github.com/mattlaguardia/foodly-app" target="_blank"><i class="fa fa-github fa-2x icon git" aria-hidden="true"></i></a>
           </div>
         </div>
 
@@ -78,8 +79,8 @@
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">pisdashio<i class="fa fa-chevron-down" aria-hidden="true"></i></span>
             <p>pisdashio is a personal dashboard that aggregates user customized content including a daily affirmation, a weather report, a traffic report, and top news stories. I developed the app using the MEAN stack and Materialize CSS on the front end. I am currently working on this project and plan to add dynamic functionality in the coming weeks.</p>
-            <a class="btn" href="https://pisdashio.herokuapp.com/">See it live!</a>
-            <a href="https://github.com/jenmcphail/dashio"><i class="fa fa-github fa-2x icon git" aria-hidden="true"></i></a>
+            <a class="btn" href="https://pisdashio.herokuapp.com/" target="_blank">See it live!</a>
+            <a href="https://github.com/jenmcphail/dashio" target="_blank"><i class="fa fa-github fa-2x icon git" aria-hidden="true"></i></a>
           </div>
         </div>
 
@@ -94,8 +95,8 @@
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Buffy Wiki<i class="fa fa-chevron-down" aria-hidden="true"></i></span>
             <p> I created a <i>Buffy The Vampire Slayer</i> themed app during a one-week sprint. Users can CRUD characters from the television show. Technologies used were: Ruby, the Sinatra framework, and postgresql on the backend. HTML / ERB, AJAX, and CSS / Bootstrap were used on the front end.</p>
-            <a class="btn" href="https://buffy-wiki.herokuapp.com">See it live!</a>
-            <a href="https://github.com/jenmcphail/buffy-wiki"><i class="fa fa-github fa-2x icon git" aria-hidden="true"></i></a>
+            <a class="btn" href="https://buffy-wiki.herokuapp.com" target="_blank">See it live!</a>
+            <a href="https://github.com/jenmcphail/buffy-wiki" target="_blank"><i class="fa fa-github fa-2x icon git" aria-hidden="true"></i></a>
           </div>
         </div>
 
@@ -110,8 +111,8 @@
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Tic-Tac-Toe<i class="fa fa-chevron-down" aria-hidden="true"></i></span>
             <p> Tic Tac Unicorn T-Rex is a humorous take on the old fashioned tic tac toe game. I built it using front end JavaScript, JQuery, and DOM manipulation. </p>
-            <a class="btn" href="http://tic-tac-unicorn-trex.bitballoon.com/">See it live!</a>
-            <a href="https://github.com/jenmcphail/tic-tac-toe"><i class="fa fa-github fa-2x icon git" aria-hidden="true"></i></a>
+            <a class="btn" href="http://tic-tac-unicorn-trex.bitballoon.com/" target="_blank">See it live!</a>
+            <a href="https://github.com/jenmcphail/tic-tac-toe" target="_blank"><i class="fa fa-github fa-2x icon git" aria-hidden="true"></i></a>
           </div>
         </div>
 
@@ -126,8 +127,8 @@
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Hangman<i class="fa fa-chevron-down" aria-hidden="true"></i></span>
             <p> I created Hangman with pure JavaScript / DOM manipulation. </p>
-            <a class="btn" href="http://hangman-browser-game.bitballoon.com/">See it live!</a>
-            <a href="https://github.com/jenmcphail/tic-tac-toe"><i class="fa fa-github fa-2x icon git" aria-hidden="true"></i></a>
+            <a class="btn" href="http://hangman-browser-game.bitballoon.com/" target="_blank">See it live!</a>
+            <a href="https://github.com/jenmcphail/hangman-browser-game" target="_blank"><i class="fa fa-github fa-2x icon git" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
@@ -145,7 +146,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Internal Combustion vs. Electric Engine</span>
             <div class="card-action">
-              <a href="#">See it on Tumblr!</a>
+              <a href="http://qualcomm.tumblr.com/post/138694272987/formula-e-internal-combustion-engine-vs-electric-motor" target="_blank">See it on Tumblr!</a>
             </div>
           </div>
         </div>
@@ -158,7 +159,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">A Cashless Future</span>
             <div class="card-action">
-              <a href="#">See it on Tumblr!</a>
+              <a href="http://qualcomm.tumblr.com/post/139993966562/cashless-society-nfc-biometric-bitcoin" target="_blank">See it on Tumblr!</a>
             </div>
           </div>
         </div>
@@ -171,7 +172,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">The History of Mobile Data</span>
             <div class="card-action">
-              <a href="#">See it on Tumblr!</a>
+              <a href="http://qualcomm.tumblr.com/post/142186226372/first-cell-phone-call-martin-cooper" target="_blank">See it on Tumblr!</a>
             </div>
           </div>
         </div>
@@ -186,7 +187,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Grace Hopper's Birthday</span>
             <div class="card-action">
-              <a href="#">See it on Tumblr!</a>
+              <a href="http://qualcomm.tumblr.com/post/134867352977/grace-hopper-common-business-oriented-language-creator-b" target="_blank">See it on Tumblr!</a>
             </div>
           </div>
         </div>
@@ -199,7 +200,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Mobile World Congress Teaser</span>
             <div class="card-action">
-              <a href="#">See it on Tumblr!</a>
+              <a href="http://qualcomm.tumblr.com/post/139688964925/qualcomm-tech-mwc-2016" target="_blank">See it on Tumblr!</a>
             </div>
           </div>
         </div>
@@ -212,7 +213,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">US Patents Throughout History</span>
             <div class="card-action">
-              <a href="#">See it on Tumblr!</a>
+              <a href="http://qualcomm.tumblr.com/post/139123269347/patents-invention-inventors-day" target="_blank">See it on Tumblr!</a>
             </div>
           </div>
         </div>
@@ -229,7 +230,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">London</span>
             <div class="card-action">
-              <a href="http://qualcomm.tumblr.com/post/146719331307/formula-e-london">See it on Tumblr!</a>
+              <a href="http://qualcomm.tumblr.com/post/146719331307/formula-e-london" target="_blank">See it on Tumblr!</a>
             </div>
           </div>
         </div>
@@ -242,7 +243,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">London</span>
             <div class="card-action">
-              <a href="http://qualcomm.tumblr.com/post/146719331307/formula-e-london">See it on Tumblr!</a>
+              <a href="http://qualcomm.tumblr.com/post/146719331307/formula-e-london" target="_blank">See it on Tumblr!</a>
             </div>
           </div>
         </div>
@@ -255,7 +256,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Mexico City</span>
             <div class="card-action">
-              <a href="http://qualcomm.tumblr.com/post/140861569962/formula-e-mexico-city-poster">See it on Tumblr!</a>
+              <a href="http://qualcomm.tumblr.com/post/140861569962/formula-e-mexico-city-poster" target="_blank">See it on Tumblr!</a>
             </div>
           </div>
         </div>
@@ -270,7 +271,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Long Beach</span>
             <div class="card-action">
-              <a href="http://qualcomm.tumblr.com/post/141978895577/formula-e-long-beach">See it on Tumblr!</a>
+              <a href="http://qualcomm.tumblr.com/post/141978895577/formula-e-long-beach" target="_blank">See it on Tumblr!</a>
             </div>
           </div>
         </div>
@@ -283,7 +284,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Buenos Aires</span>
             <div class="card-action">
-              <a href="http://qualcomm.tumblr.com/post/138732790992/formula-e-buenos-aires">See it on Tumblr!</a>
+              <a href="http://qualcomm.tumblr.com/post/138732790992/formula-e-buenos-aires" target="_blank">See it on Tumblr!</a>
             </div>
           </div>
         </div>
@@ -296,7 +297,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Beijing</span>
             <div class="card-action">
-              <a href="http://qualcomm.tumblr.com/post/131706619667/formula-e-beijing-october-24-race">See it on Tumblr!</a>
+              <a href="http://qualcomm.tumblr.com/post/131706619667/formula-e-beijing-october-24-race" target="_blank">See it on Tumblr!</a>
             </div>
           </div>
         </div>
@@ -312,7 +313,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Cyborgs are People, Too</span>
             <div class="card-action">
-              <a href="https://www.qualcomm.com/news/spark/2016/01/28/cyborgs-are-people-too">See it on Spark!</a>
+              <a href="https://www.qualcomm.com/news/spark/2016/01/28/cyborgs-are-people-too" target="_blank">See it on Spark!</a>
             </div>
           </div>
         </div>
@@ -325,7 +326,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Stop Trying to Make Millennials Love Cars</span>
             <div class="card-action">
-              <a href="https://www.qualcomm.com/news/spark/2016/01/19/stop-trying-make-millennials-love-cars">See it on Spark!</a>
+              <a href="https://www.qualcomm.com/news/spark/2016/01/19/stop-trying-make-millennials-love-cars" target="_blank">See it on Spark!</a>
             </div>
           </div>
         </div>
@@ -338,7 +339,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">A World Economic Forum Preview</span>
             <div class="card-action">
-              <a href="https://www.qualcomm.com/news/onq/2016/03/29/world-economic-forum-preview-4-qualcomm-technologies-are-transforming-urban">See it on OnQ!</a>
+              <a href="https://www.qualcomm.com/news/onq/2016/03/29/world-economic-forum-preview-4-qualcomm-technologies-are-transforming-urban" target="_blank">See it on OnQ!</a>
             </div>
           </div>
         </div>
@@ -353,7 +354,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">LinkNYC Launch</span>
             <div class="card-action">
-              <a href="https://www.qualcomm.com/news/onq/2016/02/09/qualcomm-solutions-support-free-public-wi-fi-linknyc">See it on OnQ!</a>
+              <a href="https://www.qualcomm.com/news/onq/2016/02/09/qualcomm-solutions-support-free-public-wi-fi-linknyc" target="_blank">See it on OnQ!</a>
             </div>
           </div>
         </div>
@@ -366,7 +367,7 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Snapdragon 820 Launch</span>
             <div class="card-action">
-              <a href="https://www.qualcomm.com/news/snapdragon/2015/11/10/live-new-york-its-snapdragon-820-prepare-immersive-dive-mobile-experience">See it on Snapdragon!</a>
+              <a href="https://www.qualcomm.com/news/snapdragon/2015/11/10/live-new-york-its-snapdragon-820-prepare-immersive-dive-mobile-experience" target="_blank">See it on Snapdragon!</a>
             </div>
           </div>
         </div>
@@ -379,15 +380,28 @@
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">CES 2016: The Future of Connected Cars</span>
             <div class="card-action">
-              <a href="https://www.qualcomm.com/news/snapdragon/2016/01/05/ces-2016-future-connected-cars">See it on Snapdragon!</a>
+              <a href="https://www.qualcomm.com/news/snapdragon/2016/01/05/ces-2016-future-connected-cars" target="_blank">See it on Snapdragon!</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+    <hr>
+    <div>
+      <a name="contact"><h4 class="sectionTitle" align="center">Contact</h4></a>
+      <p align="center">If you'd like to work together, shoot me a note on <a href="https://www.linkedin.com/in/jenmcphail" target="_blank"> LinkedIn </a> or email me at mcphail.jen@gmail.com.</p>
+    </div>
+    <hr>
+    <div>
+      <a name="resume"><h4 class="sectionTitle" align="center">Resume</h4></a>
+      <p align="center">
+        <a class="btn blue accent-3" href="images/Jen-McPhail-Resume.pdf" target="_blank">Download CV</a>
+      </p>
+      <div class="row hide-on-med-and-down">
+        <div class="col m3">
+          
 </div>
-  </div>
-</div>
+
 </body>
 </html>

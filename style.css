@@ -29,3 +29,11 @@
 .profile{
   width: 100%;
 }
+
+.sectionTitle{
+  color: black;
+}
+
+.brand-logo{
+  margin-left: 20px !important;
+}
